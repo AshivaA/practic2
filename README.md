@@ -12,3 +12,4 @@ N/A
 ## Usage
 
 Navigate to the website and click on the website buttons. You can read about me, view my work samples, and contact me through the links provided.
+![screenshot](https://github.com/AshivaA/practic2/assets/136107176/4f219481-d7cf-4ff3-927c-69832f38d090)
