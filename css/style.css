@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+
+#h1{
+float: left;
+background-color: lightseagreen;
+color: navy;
+padding-left: 30px;
+
+}
+
+.nav{
+  background-color:lightslategray;
+  width: 100%;
+  height: 50px;
+
+}
+
+
+li{
+  display: inline;
+  float: right;
+  margin: 10px;
+ 
+}
+ 
+/* when hover touch a link then the link color will chang */
+.a:hover{
+  color: navy;
+}
+
+.a{
+  font-size: 20px;
+}
+
+
+
+ /* the relationship between .hero-image and .hero is parent and child.*/ 
+.hero-image{
+    position: relative;
+  }
+
+.hero{
+   background-color: lightyellow;
+   position: absolute;
+   height: 30px;
+   text-align: right;
+   bottom: 20px;
+   right: 20px;
+  }
+
+.my-photo{
+  position: absolute;
+  text-align: left;
+  bottom: 10px;
+  top: 4px;
+}
+
+
+
+  .page-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 300px;
+  }
+  
+  .vertical-line{
+    border-left: 2px solid green;
+    position: absolute;
+    margin-left: 120px;
+    
+  }
+  .page-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  #about{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    margin-left: 10px;
+    position: relative;
+    
+  }
+
+  #vl-about{
+  height: 100px;
+  }
+
+
+#paragraph{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 620px;
+  margin-bottom: 100px;
+}
+
+
+  #work{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    margin-left: 5px;
+    position: relative;
+  }
+
+
+  #vl-work{
+    height: 400px;
+  }
+   
+
+  #contact{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    margin-left: 5px;
+    position: relative;
+  }
+
+
+  #vl-contact{
+    height: 100px;
+  }
+
+
+.boxes{
+  margin-left: 550px;
+  position: relative;
+}
+
+ /* display:flex; is by default horizontal value if you don't set any direction. */ 
+ .boxes1{
+      display: flex;
+    }
+
+
+.boxes2{
+  display: flex;
+}
+
+.led{
+  background-color: bisque;
+   position: absolute;
+   height: 20px;
+   text-align: justify;
+   margin-bottom: 200px;
+   bottom: 10px;
+   left: 0px;
+}
+
+
+.report{
+  background-color: bisque;
+   position: absolute;
+   height: 20px;
+   text-align: justify;
+   margin-bottom: 100px;
+   bottom: 10px;
+   left: 0px;
+
+}
+
+
+.puzzles{
+  background-color: bisque;
+   position: absolute;
+   text-align: justify;
+   margin-bottom: 100px;
+   bottom: 10px;
+   right: 0;
+  
+}
+
+
+.run{
+  background-color: bisque;
+   position: absolute;
+   text-align: justify;
+   margin-bottom: 100px;
+   top: 300px;
+   left: 0px;
+  
+}
+
+
+.calculator{
+  background-color: bisque;
+   position: absolute;
+   height: 20px;
+   text-align: justify;
+   margin-bottom:100px ;
+   top: 300px;
+   right: 0;
+   
+}
+
+
+
+.contact{
+  display: flex;
+  position: absolute;
+  margin-left: 750px;
+  font-size: 20px;
+  
+}
+
+.spotify{
+  margin: 10px;
+  
+}
+  .twitter{
+    margin: 10px;
+  }
+.email{
+  margin: 10px;
+}
+
+.number{
+  margin: 10px;
+}
+  
